@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="connect-Web.config Connection String" description="connect Chaîne de connexion utilisée dans web.config par l’application pour accéder à la base de données." defaultValue="Server=MYSQL5026.site4now.net;Database=db_aa3818_ict203;Uid=aa3818_ict203;Pwd=qwerty123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\works\\school\\ICT\ -L2\\ICT\ 203\\TP\ FINAL\\WebApplication_TPfinal_ICT203\\WebApplication_TPfinal_ICT203\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='connect']/@connectionString" />
+  </parameter>
+</parameters>
