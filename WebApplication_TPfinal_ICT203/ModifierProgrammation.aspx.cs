@@ -17,7 +17,7 @@ namespace WebApplication_TPfinal_ICT203
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            GridView1.RowDataBound += GridView1_RowDataBound;
+            //GridView1.RowDataBound += GridView1_RowDataBound;
             using (MySqlConnection connexion = new MySqlConnection(ConfigurationManager.ConnectionStrings["connect"].ConnectionString))
             {
                 string query5 = "SELECT id FROM programmation order by id";
